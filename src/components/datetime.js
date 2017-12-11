@@ -1,5 +1,7 @@
 var fs = require('fs');
 var _get = require('lodash/get');
+var moment = require('moment');
+
 module.exports = function(app) {
   app.config([
     'formioComponentsProvider',
